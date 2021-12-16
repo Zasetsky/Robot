@@ -2,31 +2,31 @@
     <div>
         <div class="top-row">
             <div class="top part">
-                <img v-bind:src="availableParts.heads[0]" title="head"/>
+                <img :src="availableParts.heads[0]" title="heads"/>
                 <button class="prev-selector">&#9668;</button>
                 <button class="next-selector">&#9658;</button>
             </div>
         </div>
         <div class="middle-row">
             <div class="left part">
-                <img v-blind:src="availableParts.arms[0]" title="left arm"/>
+                <img :src="availableParts.arms[0]" title="left arm"/>
                 <button class="prev-selector">&#9650;</button>
                 <button class="next-selector">&#9660;</button>
             </div>
             <div class="center part">
-                <img v-blind:src="availableParts.torsos[0]" title="left arm"/>
+                <img :src="availableParts.torsos[0]" title="left arm"/>
                 <button class="prev-selector">&#9668;</button>
                 <button class="next-selector">&#9658;</button>
             </div>
             <div class="right part">
-                <img v-blind:src="availableParts.arms[0]" title="left arm"/>
+                <img :src="availableParts.arms[0]" title="left arm"/>
                 <button class="prev-selector">&#9650;</button>
                 <button class="next-selector">&#9660;</button>
             </div>
         </div>
         <div class="bottom-row">
             <div class="bottom part">
-                <img v-blind:src="availableParts.bases[0]" title="left arm"/>
+                <img :src="availableParts.bases[0]" title="left arm"/>
                 <button class="prev-selector">&#9668;</button>
                 <button class="next-selector">&#9658;</button>
             </div>
